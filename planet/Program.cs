@@ -54,7 +54,7 @@ namespace planet
 
             MeanPlanets.ForEach(Console.WriteLine); // Prints the MeanPlanets list out to display it
 
-            Console.WriteLine("\n 7th list that displays planets with a diameter above 10.000km but less than 50.000km\n"); // Jumps a few lines to make room for the next list
+            Console.WriteLine("\n 7th list that displays planets with a diameter above 10.000km and less than 50.000km\n"); // Jumps a few lines to make room for the next list
 
             List<String> MediumPlanets = new List<String>(); // New list containing the planets with a medium/semi large diameter
             MediumPlanets.Add("Venus"); // Adds a planet to the MediumPlanets list
@@ -66,7 +66,6 @@ namespace planet
             Planets.RemoveRange(0, 9); // Removes everything within the given range, from index 0 to index 9.
 
             Console.WriteLine(Planets); // displays the now removed list, or rather nothing since its empty
-
         } 
     }
 }

@@ -62,10 +62,12 @@ namespace planet
             MediumPlanets.Add("Neptune"); // Adds a planet to the MediumPlanets list
 
             MediumPlanets.ForEach(Console.WriteLine); // Prints the MediumPlanets list out and displays it
-
+           
+            Console.WriteLine("\n\n");
+            
             Planets.RemoveRange(0, 9); // Removes everything within the given range, from index 0 to index 9.
 
-            Console.WriteLine(Planets); // displays the now removed list, or rather nothing since its empty
+            Console.WriteLine(Planets.Count); // displays the now removed list, or rather nothing since its empty
         } 
     }
 }

@@ -69,6 +69,7 @@ namespace planet
 
             Console.WriteLine(Planets.Count); // displays the now removed list, or rather nothing since its empty
         } 
+
     }
 }
 
